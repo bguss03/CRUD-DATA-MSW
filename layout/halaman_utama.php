@@ -34,7 +34,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         <p class="mb-4">Anda telah berhasil login.</p>
 
         <div class="d-grid gap-3 mb-4">
-          <a href="../layout/tambah.php" class="btn btn-success btn-lg">
+          <a href="../layout/tambah.php" class="btn btn-outline-success btn-lg text-white">
             <i class="bi bi-plus-circle"></i> Tambah Data Mahasiswa
           </a>
           <a href="../layout/data.php" class="btn btn-outline-light btn-lg">
@@ -42,7 +42,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
           </a>
         </div>
 
-        <a href="../auth/logout.php" class="btn btn-outline-danger w-100">
+        <a href="../auth/logout.php" class="btn btn-outline-danger w-100 text-white">
           <i class="bi bi-box-arrow-right"></i> Logout
         </a>
       </div>
